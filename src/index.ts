@@ -89,8 +89,8 @@ async function runCleanup() {
 
 // ================== SCHEDULER ==================
 
-// Snapshot → every 1 minute
-setInterval(runSnapshot, 60 * 1000);
+// Snapshot → every 5 minute
+setInterval(runSnapshot, 60 * 5000);
 
 // Cleanup → check every hour, execute only quarterly
 setInterval(
